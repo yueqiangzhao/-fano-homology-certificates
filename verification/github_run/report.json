@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "fano_generate": "PASS",
+    "fano_separate_checker": "PASS",
+    "fano_character": "PASS",
+    "sign8": "PASS",
+    "integral": "PASS"
+  },
+  "regenerated_fano_files_match": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "scope": "Exact local Fano chains, integral unit pairings, local character, alternating eight-label cycle, and primitive integral eight-label chain. The external rank theorem and all-label proofs are not computer-verified."
+}

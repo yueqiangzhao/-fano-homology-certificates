@@ -1,0 +1,560 @@
+{
+  "status": "PASS",
+  "input_sha256": "38740b2767d726e98e31b9335c51cb8496aad5e77b8ed6310d1302f8c8defe3e",
+  "fano": {
+    "permutations": 5040,
+    "planes": 30,
+    "representatives_per_plane": 168,
+    "transport_consistency": true,
+    "all_maximality_patterns_checked": true
+  },
+  "tree": {
+    "edges_in_graph": 120,
+    "degrees": 8,
+    "tree": [
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        17
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        0,
+        21
+      ],
+      [
+        0,
+        25
+      ],
+      [
+        0,
+        26
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        16
+      ],
+      [
+        9,
+        20
+      ],
+      [
+        9,
+        23
+      ],
+      [
+        9,
+        24
+      ],
+      [
+        9,
+        27
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        15
+      ],
+      [
+        10,
+        19
+      ],
+      [
+        10,
+        28
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        11
+      ],
+      [
+        17,
+        8
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        22
+      ],
+      [
+        4,
+        29
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        16,
+        1
+      ]
+    ],
+    "cycles": 29,
+    "terms_each": 128,
+    "boundary_zero": true,
+    "boundary_faces_each": [
+      448
+    ],
+    "evaluations": "exactly u_F + u_G",
+    "root_deleted_integer_pivots": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "Gamma8": {
+    "raw_terms": 4100,
+    "distinct_canonical_terms": 4100,
+    "lex_ordered_input_rows": 1001,
+    "raw_coefficients": {
+      "-2": 4,
+      "-1": 2045,
+      "1": 2049,
+      "2": 2
+    },
+    "boundary_faces": 14257,
+    "nonzero_boundary_faces": 0,
+    "fano_evaluations": 240,
+    "blocks": [
+      {
+        "omitted": 0,
+        "signed_sum": 1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              1,
+              2,
+              7
+            ],
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              7
+            ],
+            [
+              5,
+              6,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": -1
+        }
+      },
+      {
+        "omitted": 1,
+        "signed_sum": -1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              0,
+              6,
+              7
+            ],
+            [
+              2,
+              3,
+              7
+            ],
+            [
+              2,
+              5,
+              6
+            ],
+            [
+              3,
+              4,
+              6
+            ],
+            [
+              4,
+              5,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": 1
+        }
+      },
+      {
+        "omitted": 2,
+        "signed_sum": 1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              1,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              7
+            ],
+            [
+              5,
+              6,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": -1
+        }
+      },
+      {
+        "omitted": 3,
+        "signed_sum": -1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              0,
+              2,
+              5
+            ],
+            [
+              0,
+              6,
+              7
+            ],
+            [
+              1,
+              2,
+              7
+            ],
+            [
+              1,
+              5,
+              6
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              4,
+              5,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": 1
+        }
+      },
+      {
+        "omitted": 4,
+        "signed_sum": 1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              2,
+              6
+            ],
+            [
+              0,
+              3,
+              5
+            ],
+            [
+              1,
+              2,
+              5
+            ],
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              3,
+              7
+            ],
+            [
+              5,
+              6,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": -1
+        }
+      },
+      {
+        "omitted": 5,
+        "signed_sum": -1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              0,
+              6,
+              7
+            ],
+            [
+              1,
+              2,
+              7
+            ],
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              7
+            ]
+          ],
+          "alpha": 1,
+          "sign": -1
+        }
+      },
+      {
+        "omitted": 6,
+        "signed_sum": 1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              7
+            ],
+            [
+              0,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              4
+            ],
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              2,
+              3,
+              7
+            ],
+            [
+              4,
+              5,
+              7
+            ]
+          ],
+          "alpha": -1,
+          "sign": -1
+        }
+      },
+      {
+        "omitted": 7,
+        "signed_sum": -1,
+        "nonzero_count": 1,
+        "nonzero": {
+          "plane": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              3,
+              4
+            ],
+            [
+              0,
+              5,
+              6
+            ],
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              2,
+              4,
+              6
+            ]
+          ],
+          "alpha": 1,
+          "sign": -1
+        }
+      }
+    ],
+    "Fstar": {
+      "sign": 1,
+      "alpha": 0
+    }
+  },
+  "scope": "Finite calculations certify the stated chain and local integral pairings only. Uniform passage to all finite sets is a separate paper proof."
+}

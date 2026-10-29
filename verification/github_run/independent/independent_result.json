@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "independent_STS_exact_cover_count": 30,
+  "checked_ground_permutations": 5040,
+  "integer_cycles": 29,
+  "terms_per_cycle": 128,
+  "zero_boundaries": 29,
+  "pairing_minor_determinant": 1,
+  "software": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "executable": "/usr/bin/python3",
+    "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39"
+  },
+  "hashes": {
+    "fano_certificate.json": "c8f53c83fc8db83829a213513a50d09641862f7d55d001a7938f0694f21de585",
+    "fano_cycles.tsv": "0dd3900f6a29c48af14af513e70af56370b262a1f55ea3f816290e432d1dc54d",
+    "fano_pairing.tsv": "651a69436dd1a9a57a878c29729df4beb1582581aaf026a6c586850e170fc7cf",
+    "fano_planes.tsv": "3c92b8a6d3ce1c319f73a39fe180aabbbb8debc9de1a0c7c5f99ba015a15fc99",
+    "summary.json": "bae8dd16004e30bc927e10e9c309bf568bd5848be21c4252a5200f551710d029",
+    "certify_fano.py": "9ae12a894770764c116aaf98e7ec0eba53796799bb92092796d919aad45b5b50",
+    "audit_fano.py": "10c0d8fd4bdd0b981c2f86017c1e6df8042bb15b0e9b7a80350883f6e173e929"
+  },
+  "unproved": [
+    "rational homology rank29",
+    "all-m homology rank",
+    "torsion absence",
+    "bibliographic originality"
+  ]
+}

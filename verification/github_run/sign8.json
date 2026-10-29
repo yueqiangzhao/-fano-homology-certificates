@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "evidence": "EXACT_EXHAUSTIVE",
+  "seed_terms": 17,
+  "group_permutations": 40320,
+  "chain_terms": 367320,
+  "boundary_faces": 669508,
+  "nonzero_boundary_coefficients": 0,
+  "fano_faces": 240,
+  "fano_absolute_coefficients": [
+    168
+  ],
+  "universal_fano_maximality_finite_conditions": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "certificate_sha256": "fc496feb6803483d50332d4a096fc91410febdbbb8be4abf3b6230bdd8cac151",
+  "normalization_by_omitted_label": [
+    -168,
+    168,
+    -168,
+    168,
+    -168,
+    168,
+    -168,
+    168
+  ],
+  "identity": "Phi(C)=-168*iota*d8(e0^...^e7)",
+  "elapsed_seconds": 7.446959661999998
+}

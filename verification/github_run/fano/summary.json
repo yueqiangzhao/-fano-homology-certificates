@@ -1,0 +1,10 @@
+{
+  "planes": 30,
+  "disjoint_pairs": 120,
+  "tree_edges": 29,
+  "terms_per_cycle": 128,
+  "integral_cycle_terms": 3712,
+  "integer_pairing_rank": 29,
+  "minor_absolute_determinant": 1,
+  "status": "PASS"
+}
