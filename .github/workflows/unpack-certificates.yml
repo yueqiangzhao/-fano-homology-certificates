@@ -1,0 +1,32 @@
+name: Unpack Q077 computational certificates
+on:
+  push:
+    paths:
+      - 'Q077_GitHub_Files.zip'
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract verified archive
+        run: |
+          python3 - <<'PY'
+          import zipfile
+          from pathlib import Path
+          with zipfile.ZipFile("Q077_GitHub_Files.zip") as z:
+              for name in z.namelist():
+                  path = Path(name)
+                  if path.is_absolute() or ".." in path.parts:
+                      raise ValueError(f"Invalid archive path: {name}")
+              z.extractall(".")
+          PY
+          sha256sum -c SHA256SUMS
+          python3 scripts/replay.py --output verification/github_run
+      - name: Commit extracted data and code
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md SHA256SUMS data/ scripts/ verification/
+          git diff --cached --quiet || (git commit -m "Publish reproducible Q077 certificates" && git push)
